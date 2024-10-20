@@ -27,8 +27,6 @@ const PriceInfo = () => {
     });
   };
 
-  console.log(discount);
-
   return (
     <div className="lg:w-full w-[360px] lg:max-w-[29rem] space-y-4 lg:p-6 p-4 bg-white rounded-lg shadow-xl lg:mx-5 mx-2 ">
       <h2 className="text-lg font-semibold">Price Info</h2>

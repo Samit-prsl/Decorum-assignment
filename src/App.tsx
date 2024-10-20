@@ -3,6 +3,7 @@ import Products from "./pages/Products";
 import NotFound from "./pages/Not-found";
 import SideBarComponent from "./components/Sidebar";
 import AddProduct from "./pages/AddProduct";
+import Completed from "./pages/Completed";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Routes>
               <Route path="/products" element={<Products />} />
               <Route path="/addproduct" element={<AddProduct />} />
+              <Route path="/completed" element={<Completed />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>

@@ -7,6 +7,7 @@ const Sidebar: React.FC = () => {
   const [selectedItem, setSelectedItem] = useState<string | null>(null);
   const handleCheckboxChange = (itemId: string) => {
     setSelectedItem(itemId === selectedItem ? null : itemId);
+    window.location.replace(itemId);
   };
 
   return (
