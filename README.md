@@ -24,8 +24,8 @@ Follow these steps to set up and run the project locally:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/Samit-prsl/.git
-   cd your-repository
+   git clone https://github.com/Samit-prsl/Decorum-assignment.git
+   cd Decorum-assignment
    ```
 
 2. **Install dependencies:**
